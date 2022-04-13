@@ -1,0 +1,13 @@
+﻿  task.cpp
+C:\Users\Blake\Documents\apps\Programming 1\Final\toDoList\toDoList\task.cpp(7,18): error C2146: syntax error: missing ')' before identifier 'name'
+C:\Users\Blake\Documents\apps\Programming 1\Final\toDoList\toDoList\task.cpp(7,23): error C2226: syntax error: unexpected type 'std::string'
+C:\Users\Blake\Documents\apps\Programming 1\Final\toDoList\toDoList\task.cpp(7,18): error C2146: syntax error: missing ';' before identifier 'name'
+C:\Users\Blake\Documents\apps\Programming 1\Final\toDoList\toDoList\task.cpp(7,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Blake\Documents\apps\Programming 1\Final\toDoList\toDoList\task.cpp(7,35): error C2440: 'initializing': cannot convert from 'const char [9]' to 'int'
+C:\Users\Blake\Documents\apps\Programming 1\Final\toDoList\toDoList\task.cpp(7,23): message : There is no context in which this conversion is possible
+C:\Users\Blake\Documents\apps\Programming 1\Final\toDoList\toDoList\task.cpp(8,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Blake\Documents\apps\Programming 1\Final\toDoList\toDoList\task.cpp(8,26): error C2226: syntax error: unexpected type 'std::string'
+C:\Users\Blake\Documents\apps\Programming 1\Final\toDoList\toDoList\task.cpp(8,14): error C2146: syntax error: missing ';' before identifier 'description'
+C:\Users\Blake\Documents\apps\Programming 1\Final\toDoList\toDoList\task.cpp(10,16): error C2059: syntax error: ')'
+C:\Users\Blake\Documents\apps\Programming 1\Final\toDoList\toDoList\task.cpp(11,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\Blake\Documents\apps\Programming 1\Final\toDoList\toDoList\task.cpp(11,1): error C2447: '{': missing function header (old-style formal list?)
