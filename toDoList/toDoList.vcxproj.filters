@@ -21,10 +21,21 @@
     <ClCompile Include="task.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="fileManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="task.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="fileManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="lastID.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

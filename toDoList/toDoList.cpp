@@ -1,14 +1,29 @@
 #include <iostream>
 #include "task.h"
+#include "fileManager.h"
+#include <vector>
 
 void displayMainMenu();
 void validateUserInput(int& response, int numberOfOptions);
 void run();
 
+const std::string FILE_PATH = "toDoList.csv";
+
 int main()
 {
 	//run();
-	Task newTask();
+	std::string name = "Task 1";
+	std::string description = "This is just a test tast";
+	std::vector<Task> subTasks{};
+	Task firstTask(name, description, subTasks);
+	Task secondTask;
+	Task thirdTask(description, name);
+
+	std::vector<Task> tasks{ firstTask, secondTask, thirdTask };
+
+	FileManager fManager(FILE_PATH);
+
+	fManager.addTasksToFile(tasks);
 }
 
 void run()
